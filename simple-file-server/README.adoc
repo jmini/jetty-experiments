@@ -1,0 +1,11 @@
+== Jetty Simple file server
+
+This project uses an embedded Jetty to serve static pages as proposed in the official documentation:
+link:https://www.eclipse.org/jetty/documentation/current/embedded-examples.html#embedded-file-server[Simple File Server]
+
+Main method:
+
+[source, java]
+----
+include::src/main/java/example/FileServer.java[]
+----

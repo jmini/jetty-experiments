@@ -1,0 +1,31 @@
+:rootdir: ../
+:github-readme: {rootdir}/README.adoc
+:srcdir: {rootdir}/src/
+:listing-caption: Listing
+:revdate: {project-builddate}
+:revnumber: {project-version}
+
+include::{github-readme}[tags=vardef]
+
+:projectpage: https://github.com/{gh-repo-owner}/{gh-repo-name}
+
+include::{github-readme}[tags=header]
+
+== URLs
+
+* link:{homepage}[Project home] (this page)
+* link:{projectpage}[GitHub project]
+* link:{issues}[Issue tracker]
+
+TIP: Do you want to improve this page? Please git-link:self[edit it on GitHub, edit].
+
+== Description
+
+include::{rootdir}/simple-file-server/README.adoc[leveloffset=1]
+
+See git-link:simple-file-server/[simple-file-server] folder.
+
+include::{github-readme}[tags=contact-section]
+
+include::{github-readme}[tags=license-section]
+
