@@ -22,6 +22,7 @@ Experiments with Eclipse Jetty.
 This repository contains some experiments I do with Eclipse Jetty.
 
 * simple-file-server
+* http-proxy
 
 //end::description[]
 Read more on the link:{homepage}[project home page].

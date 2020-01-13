@@ -1,0 +1,12 @@
+== Jetty HTTP-Proxy
+
+Inspired by link:https://gist.github.com/jponge/1752767[A Jetty-based HTTP proxy. As easy as it can be] and link:https://github.com/tomkraljevic/jetty-embed-reverse-proxy-example/blob/master/src/main/java/org/eclipse/jetty/embedded/ProxyServer.java[jetty-embed-reverse-proxy-example] this project is an HTTP-Proxy that is running on port `8099`, mirroring the content served at `http://localhost:8090/` (the server in the `simple-file-server` project can be used).
+
+It is using the `org.eclipse.jetty.proxy.ProxyServlet.Transparent` servlet provided by the official jetty server.
+
+Main method:
+
+[source, java]
+----
+include::src/main/java/example/HttpProxy.java[]
+----

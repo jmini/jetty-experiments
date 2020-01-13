@@ -23,7 +23,11 @@ TIP: Do you want to improve this page? Please git-link:self[edit it on GitHub, e
 
 include::{rootdir}/simple-file-server/README.adoc[leveloffset=1]
 
-See git-link:simple-file-server/[simple-file-server] folder.
+Source code is available is in the git-link:simple-file-server/[simple-file-server] folder.
+
+include::{rootdir}/http-proxy/README.adoc[leveloffset=1]
+
+Source code is available is in the git-link:http-proxy/[http-proxy] folder.
 
 include::{github-readme}[tags=contact-section]
 
